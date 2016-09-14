@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :posts
   get 'about' => 'pages#about' #hash rocket
   
   root 'pages#welcome'
